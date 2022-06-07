@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Program that prints all possible different combination of three digits
+ * main - Entry point
  *
  * Return: Always return 0 (Success)
  *
@@ -29,15 +29,16 @@ int main(void)
 	if (i == 55 && n == 56 && k == 57)
 	{
 	break;
+	}
 
 	putchar(',');
-	putchar(' ');
+	putchar(' ')
 	}
 	}
 	}
 	}
 	}
-	}
+
 	putchar('\n');
 	return (0);
 }
