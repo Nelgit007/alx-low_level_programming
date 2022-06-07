@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Program that prints all possible different combinations
  *
  * Return: Always return 0 (Success)
  *
