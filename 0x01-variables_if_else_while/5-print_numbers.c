@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	int num_base10;
+	int a = 0;
 
-	for (num_base10 = 0; num_base10 < 10; num_base10++)
-	printf("%d\n", num_base10);
+	for (; a < 10; a++)
+	printf("%d\n", a);
 	putchar('\n');
 	return (0);
 }
