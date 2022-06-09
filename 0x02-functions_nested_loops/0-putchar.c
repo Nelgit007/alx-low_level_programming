@@ -9,14 +9,13 @@
 
 int main(void)
 {
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char word[8] = "_putchar";
+	int i;
+	char new_line = '\n';
+
+	for (i = 0; i < 8; i++)
+		write(1, &word[i], 1);
+		write(1, &new_line, 1)
 
 	return (0);
 }
