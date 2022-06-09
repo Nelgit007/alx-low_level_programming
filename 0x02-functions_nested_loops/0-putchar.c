@@ -4,18 +4,19 @@
 /**
  * main - Check description
  * Description: It prints the word _putchar followed by a new line.
- * Return: 0.
+ * Return: Always return 0 (Success)
  */
 
 int main(void)
 {
-	char word[8] = "_putchar";
-	int i;
-	char new_line = '\n';
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for (i = 0; i < 8; i++)
-		write(1, &word[i], 1);
-	write(1, &new_line, 1);
-
-	return (0)
+	return (0);
 }
