@@ -1,13 +1,12 @@
 #include <unistd.h>
 #include "main.h"
-/**
- * main - Check description
- *
- * Description: It prints the word _putchar followed by a new line.
- *
- * Return: Always return 0 (Success)
- */
 
+/**
+ * main - Check Discription
+ *
+ * Description: This program prints the word _putchar followed by a new line.
+ * Return 0 (success)
+ */
 int main(void)
 {
 	char word[8] = "_putchar";
