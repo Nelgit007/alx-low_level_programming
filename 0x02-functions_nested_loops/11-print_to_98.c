@@ -4,7 +4,7 @@
 /**
  * Natural numbers - print all numbers from 0 to 98
  *
- * @n: Number to be printed
+ * @n: Number to start counting from n to 98
  * Return: Always 0.
  */
 
@@ -21,5 +21,5 @@ void print_to_98(int n)
 	n--;
 	}
 	printf("98");
-	printf('\n');
+	putchar('\n');
 }
