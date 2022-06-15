@@ -12,13 +12,13 @@ int main(void)
 	int a = 0;
 	int sum = 0;
 
-	while (c < 1024)
+	while (a < 1024)
 	{
-	if (c % 3 == 0 || c % 5 == 0)
+	if (a % 3 == 0 || a % 5 == 0)
 	{
-	sum += c;
+	sum += a;
 	}
-	c++;
+	a++;
 	}
 	printf("%i \n", sum);
 	return (0);
