@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Multiples - The sum of multiples
+ * main - The sum of multiples
  *
  * Return: Always 0.
  */
