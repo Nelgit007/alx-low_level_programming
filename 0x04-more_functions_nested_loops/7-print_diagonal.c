@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints forward slash
+ * print_diagonal - print slash
  * @n: parameter
  */
 
 void print_diagonal(int n)
 {
-	int = 0;
+	int i = 0;
 	int j;
 
 	if (n > 0)
