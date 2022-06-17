@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate two strings
- * @dest: A pointer to a character that will change
- * @src: A pointer to a character that will also change
- * return: dest
+ * _strcat - concatenates two strings
+ * @dest: A pointer to a character that will be changed
+ * @src: A pointer to a character that wil also be changed
+ * Return: dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char src)
 {
 	int i, j;
 
@@ -25,6 +25,6 @@ char *_strcat(char *dest, char *src)
 	i++;
 	}
 	dest[i] = '\0';
-	
+
 	return (dest);
 }
