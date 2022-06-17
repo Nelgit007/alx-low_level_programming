@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - concantinates two string
- * @dest: Pointer to a character that will be changed
- * @src: Pointer to a character that will be changed
+ * _strncat - concatenates two strings
+ * @dest: A pointer to a character that will be changed
+ * @src: A pointer to a character that will be changed
  * @n: value
  * Return: dest
  */
