@@ -4,7 +4,6 @@
  * _strcat - concatenate two strings
  * @dest: A pointer to a character that will change
  * @src: A pointer to a character that will also change
- * @n: value
  * return: dest
  */
 
