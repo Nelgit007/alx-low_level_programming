@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates two strings
- * @dest: A pointer to a character that will be changed
- * @src: A pointer to a character that will be changed
+ * _strncat - concatenate two strings
+ * @dest: A pointer to a character that will change
+ * @src: A pointer to a character that will change
  * @n: value
- * Return: dest
+ * return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
