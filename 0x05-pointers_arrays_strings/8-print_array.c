@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_arrays - prints array
- * @a: param
- * @n: param
+ * print_array - prints array
+ * @a: params
+ * @n: params
  */
 
 void print_array(int *a, int n)
