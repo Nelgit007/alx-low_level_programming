@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcmp _ compares two strings
+ * _strcmp - compares two strings
  * @s1: A pointer to a character that wllbe changed
  * @s2: A pointer to character that will also be modified/updated
  * Return: dest
